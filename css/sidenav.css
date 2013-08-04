@@ -1,0 +1,29 @@
+/**
+ * Sidenav module
+ * 2013
+ *
+ * https://github.com/keevitaja/sidenav-pyrocms
+ *
+ * @package     sidenav
+ * @author      Tanel Tammik <keevitaja@gmail.com>
+ * @version     master
+ *
+ */
+
+ul.sidenav-pages > li > a {
+    font-weight: bold;
+}
+
+ul.sidenav-pages li {
+    margin-left: 30px;
+    line-height: 24px;
+}
+
+.sidenav-is-draft a {
+    font-style: italic;
+}
+
+.sidenav-options {
+    color: #666;
+    font-weight: normal;
+}
